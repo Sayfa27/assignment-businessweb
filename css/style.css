@@ -1,0 +1,415 @@
+/*-----Author Info
+
+Name: Sadia Afrin Sayfa
+Mail: sadiasayfa123@gmail.com
+website: none
+*/
+
+/*-
+======Index===
+1.Home
+2.About us
+3.Our Services
+4.Prices
+5.Contact
+=========== 
+*/
+
+/*  Global Css */
+h2 {
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 700;
+    color: #424242;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #424242;
+}
+span {
+    border-bottom: 5px solid black;
+    display: block;
+    width: 5%;
+    color: #424242;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.no-margin {
+    margin: 0 !important;
+}
+.no-padding {
+    padding:0 !important;
+    }
+/*   top-head   */
+
+.fa.fa-mobile {
+    margin: 0px 13px 3px;
+}
+.fa.fa-envelope {
+    margin: 0px 10px 3px;
+}
+.fa.fa-facebook-top {
+    margin: 0px 9px 4px;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 9px;
+}
+/*   HEADER    */
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+.fixed-top{
+    background-color: wheat;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: crimson;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+.static-option{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+/* SECTION-1 HOME */
+.sec-1{
+	background:url(../img/banner.jpg)center top;
+	background-size: cover;
+	background-repeat: repeat;
+}
+.hero {
+    padding: 170px 0px 220px;
+    text-align: center;
+    color: white;
+}
+.hero h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.hero p {
+    font-size: 20px;
+}
+.btn-hero {
+    background-color: #f8cd53;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 25px 0px;
+    padding: 8px 18px;
+}
+
+/*    SECTION-2 ABOUT */
+
+.sec-2-info{
+	text-align: center;
+	padding-bottom: 110px;
+
+}
+.sec-2-info h3{
+	margin-top: 20px;
+}
+
+/*  SECTION-3 APPROCH  */
+
+.sec-3{
+	background-color: #f3f3f3;
+}
+.sec-3 h2{
+	padding-top: 85px;
+}
+.part-1{
+	background-color: white;
+	margin: 30px 0px;
+}
+.p1-img{
+	position: relative;
+
+}
+.p1-img img{
+    width: 100%;
+}
+.p1-child {
+    position: absolute;
+    background-color: #de2b24;
+    width: 40%;
+    height: 125px;
+    border: 3px solid white;
+    top: 26%;
+    right: -20%;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+.p1-child-2 {
+    position: absolute;
+    background-color: #de2b24;
+    width: 40%;
+    height: 125px;
+    border: 3px solid white;
+    top: 26%;
+    border-radius: 8px;
+    left: -20%;
+    text-align: center;
+    color: white;
+}
+.p1-child h1 {
+    margin: -3%;
+    font-weight: 700;
+}
+.p1-info{
+	padding: 70px 50px 0px 90px;
+
+}
+.p1-info2 {
+    padding: 70px 90px 0px 80px;
+    text-align: -webkit-right;
+}
+.p1-info p{
+	text-align: initial;
+}
+.p1-info2 p {
+    text-align: right;
+}
+
+
+/*   SECTION-4 WORK  */
+.sec-4{
+	background-color: red;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.sec-4 h2{
+	color: white;
+}
+.sec-4 p{
+	color: white;
+}
+.fa.fa-paper-plane {
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    margin: 50px 0px -60px;
+}
+.new-img{
+	background-color: #f35e59;
+	margin: 0px;
+    width: 100%;
+}
+.sec-4-img img{
+	width: 100%;
+}
+
+/*     SECTION-5  FORM    */
+.sec-5{
+    background-color: #1287bf;
+}
+.sec-5-header{
+    text-align: center;
+    color: white;
+    padding-top: 95px;
+    padding-bottom: 100px;
+
+}
+.fa.fa-angle-down {
+    font-size: 43px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 13px 20px;
+    margin: 12px 0px 15px;
+}
+.form-consultation {
+    background-color: white;
+    width: 69%;
+    padding: 29px 29px;
+    margin: 0 auto;
+}
+.form-consultation p{
+    width: 90%;
+    color: lightgrey;
+    margin: 30px auto 20px;
+}
+.txt {
+    width: 65%;
+    margin: 15px 0px 8px;
+    padding: 10px 10px;
+    font-size: 17px;
+}
+.btn-submit {
+    background-color: #de2b24;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 25px 0px 60px;
+}
+
+/*   SECTION-6  CONTACT  */
+.sec-6{
+	background-color: #2a2a2a;
+	color: white;
+	padding-top: 80px;
+}
+.contact-info{
+	text-align: center;
+}
+.contact-info ul{
+	list-style: none;
+}
+.contact-info li {
+    display: inline-block;
+    font-size: 26px;
+    border: 2px solid #515151;
+    margin: 30px;
+    padding: 12px 21px;
+    border-radius: 7px;
+}
+.contact-info ul: hover{
+	border:3px solid #ed145b;
+}
+.fa:hover{
+    color: #ed145b;
+}
+.email {
+    background-color: #515151;
+    border: none;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    height: 57px;
+    padding: 0px 25px;
+}
+.btn-subscribe {
+    color: white;
+    margin: 25px 0px 85px;
+    font-size: 21px;
+    border: 1px solid;
+    padding: 9px 30px;
+}
+.btn-subscribe:hover{
+	color: #ed145b;
+	background-color: white;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+/*    Small Device */
+@media(min-width: 270px) and (max-width: 500px){
+/*   Header  */
+.navbar-dark .navbar-nav .nav-link.active{
+width: 65%;
+text-align: center;
+}
+
+/* Our approch  */
+.part-1{
+  width: 90%;
+  display: block;
+  margin: 15px auto;
+}
+.p1-child {
+    top: 0;
+    right: 0;
+}
+.p1-child-2{
+    top: 0;
+    left:0;
+}
+
+/*   SECTION-4 WORK  */
+
+.sec-4-img img{
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  height: 250px;
+}
+.new-img{
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  height: 100%;
+  height: 250px;
+    
+}
+.contact-info li {
+    margin: 10px;
+    padding: 5px 8px;
+}
+.email {
+    width: 80%;
+    padding: 0px 25px;
+}
+
+/* sec  Form */
+.form-consultation{
+    width: 80%;
+}
+.txt{
+    width: 60%;
+
+}
+
+}
+
+/*  medium device */
+@media (min-width: 500.01px) and (max-width: 780px){
+
+/*   Header  */
+    .navbar-dark .navbar-nav .nav-link.active{
+    width: 65%;
+    text-align: center;
+    }
+
+/* Our approch  */
+.part-1{
+  width: 90%;
+  display: block;
+  margin: 15px auto;
+}
+.p1-child {
+    top: 0;
+    right: 0;
+}
+.p1-child-2{
+    top: 0;
+    left:0;
+}
+
+/*   SECTION-4 WORK  */
+
+.sec-4-img img{
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  height: 250px;
+}
+.new-img{
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  height: 100%;
+  height: 250px;
+    
+}
+.contact-info li {
+    margin: 20px;
+    padding: 10px 15px;
+}
+.email {
+    width: 80%;
+    padding: 0px 25px;
+}
+}

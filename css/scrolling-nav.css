@@ -1,0 +1,44 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+<div class="col-md-12 part-1">
+          <div class="row">
+            <div class="col-md-4 p1-img no-padding">
+              <img src="img/sec-3p3.png" class="img-fluid">
+              <div class="p1-child">
+                <h1>3</h1>
+                <h3>Step</h3>
+              </div>
+              
+            </div>
+            <div class="col-md-8 p1-info">
+
+              <h4>Step 3 : Heading Here</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-12 part-1">
+          <div class="row">
+            <div class="col-md-8 p1-info2">
+
+              <h4>Step 4 : Heading Here</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+              
+            </div>
+            <div class="col-md-4 p1-img no-padding">
+              <img src="img/sec-3p4.png" class="img-fluid">
+              <div class="p1-child-2">
+                <h1>4</h1>
+                <h3>Step</h3>
+              </div>
+              
+            </div>
+
+
